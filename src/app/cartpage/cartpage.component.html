@@ -1,0 +1,50 @@
+<header>
+  <div class="container">
+
+      <div class="col-md-12 text-right">
+          <div class="cart_icon">
+            <img src="./../../assets/image/shopp.png" class="shopicon" style="height: 50px; width: 50px;">
+
+              <div class="cart_value"> 
+                  0
+              </div>
+          </div>
+      </div>
+  </div>
+</header>
+
+
+
+
+<section class="cart_section">
+   <div class="container">
+
+    <h2>Cart</h2>
+
+<table>
+  <tr>
+    <th>Product</th>
+    <th>Price</th>
+    <th>Quantity</th>
+    
+  </tr>
+  <tr *ngFor="let prod of productArray">
+    <td> <img src="{{prod.img}}" class="imaag"></td>
+    <td><strong>₹ {{prod.amt}}</strong></td>
+    <td>
+      <div class="content">
+        <button type="button" class="btn" (click)="inc(prod)">+</button>
+        <span>{{prod.qnt}}</span>
+        <button type="button" class="btn" (click)="dec(prod)">-</button>
+        
+    </div>
+    <button type="button" class="crt_btn">Add to Cart</button>
+    </td>
+   
+  </tr>
+
+
+</table>
+
+   </div>
+</section>

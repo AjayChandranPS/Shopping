@@ -1,0 +1,41 @@
+.aaa{
+    float: right;
+    margin-right: 15px;
+  }
+  .bbb{
+    float: left;
+    margin-right: 15px;
+  }
+
+  div {
+    float: left;
+    padding: 15px; 
+  }
+  
+  .div1 {
+    background: red;
+  }
+  
+  .div2 {
+    background: yellow;
+  }
+  
+  .div3 {
+    background: green;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .img-container {
+    float: left;
+    width: 23.33%;
+    padding: 5px;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }

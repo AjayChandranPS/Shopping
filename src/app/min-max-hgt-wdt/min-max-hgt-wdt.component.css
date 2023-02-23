@@ -1,0 +1,28 @@
+.eas {
+    height: 200px;
+    width: 40%;
+    background-color: rgba(59, 135, 206, 0.486);
+}
+
+#es {
+    height: 500px;
+    width: 500px;
+    background-color: rgb(93, 214, 68);
+}
+
+.nag{
+    margin-top: 50px;
+    padding-top: 200px;
+}
+
+div.ex1 {
+    width: 500px;
+    margin: auto;
+    border: 5px solid #212fad;
+  }
+  
+  div.ex2 {
+    max-width: 500px;
+    margin: auto;
+    border: 3px solid #cf7521;
+  }

@@ -1,0 +1,152 @@
+.icn{
+   float:left;
+    
+}
+
+.navbar {
+    width: 100%;
+    height: 40px;
+    padding-left: 100px;
+    background-color: rgb(251, 255, 255);
+    font-size: 20px;
+
+}
+ul{
+    float: right;
+}
+li {
+    display: inline-block;
+    padding: 10px;
+}
+
+
+
+.imgcls {
+    background-image: url("./../../assets/image/dea.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    margin-top: 0px;
+    padding: 100px;
+
+}
+
+.imginimg{
+
+    height: 373px;
+    width: 350px;
+    padding-left: 50px;
+    float: right;
+    padding-bottom: 100px;
+
+
+    
+
+}
+
+.text{
+    padding-left: 35%;
+    padding-top: 7%;
+}
+
+
+
+
+.txt {
+    color: white;
+    font-size: 90px;
+    font-family: Verdana;
+   
+
+
+}
+
+.txt1 {
+    color: rgb(107, 201, 207);
+   
+    font-family: Verdana;
+    font-size: 50px;
+
+
+}
+
+.imaag {
+    width: 200px;
+    margin-top: 10px;
+    padding-left: 100px;
+
+  
+}
+
+.icons{
+    background-color: rgb(205, 221, 224);
+    height: 260px;
+    width: 100%;
+    cursor: pointer;
+}
+.product{
+    height: 200px;
+    width: 200px;
+
+    
+}
+
+.aaaa{
+    padding: 70px;
+    padding-left: 350px;
+
+}
+
+
+.col-sm-3 {
+    width: 24%;
+}
+  
+  .prd{
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-left: 20px;
+  }
+
+  .header{
+    height: 400px;
+    color:rgb(48, 150, 209);
+    font-family: 'Segoe UI';
+    background-color: rgb(255, 255, 255);
+  
+   
+  }
+ 
+  .headers{
+    float: left;
+    width: 35%;
+    margin-right: 30%;
+    margin-left: 30px;
+  }
+ .hui{
+    float: left;
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 20px;
+ }
+ .footer{
+    width: 100%;
+    background-color: rgb(37, 104, 192);
+    height: 140px;
+    color: white;
+   
+   
+ }
+
+ .emil{
+    padding-top: 50px ;
+    font-size: 30px;
+ }
+
+ .crt{
+    font-size: 20px;
+    padding-left: 800px;
+  
+ }

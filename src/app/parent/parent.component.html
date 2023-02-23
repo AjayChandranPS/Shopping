@@ -1,0 +1,14 @@
+
+
+<h2 style="color: blue;">{{title}}1</h2>
+<input type="text" #box/>
+
+<button (click)="updatedata(box.value)">Update1</button>
+
+
+ 
+<app-child [item]="data" (DataUpdateEvent)="updateTitle($event)"  [item1]="currentItem"  (newItemEvent)="addItem($event)" ></app-child>
+
+<ul>
+  <li *ngFor="let item of items">{{item}}</li>
+</ul>

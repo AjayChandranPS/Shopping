@@ -1,0 +1,12 @@
+<h2 style="color:red ;">{{item}}</h2>
+
+ <input #box type="text"/>
+<button (click)="DataUpdateEvent.emit(box.value)">Update</button>
+
+<h2>
+    Today item: {{item1}}
+</h2>
+
+<label for="item-input">Add an item:</label>
+<input type="text" id="item-input" #newItem>
+<button type="button" (click)="addNewItem(newItem.value)">Add to parent's list</button> 

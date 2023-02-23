@@ -1,0 +1,17 @@
+.ab{
+    width: 800px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.abc{
+    width: 400px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.abcd{
+    width: 200px;
+    height: 300px;
+    object-fit: fill;
+}

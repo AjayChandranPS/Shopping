@@ -1,0 +1,33 @@
+.ee {
+    border: 1px solid black;
+    margin: 55px 50px 75px 400px;
+    background-color: rgb(173, 206, 95);
+    width: 800px;
+
+}
+
+#aa{
+    border: 1px solid black;
+  margin: 25px 500px;
+  background-color: rgb(211, 82, 153);
+  height: 100px;
+  text-align: center;
+}
+
+.aaa{
+    margin-top: 40px;
+}
+
+
+    div {
+        border: 3px solid red;
+        margin-left: 100px;
+        margin-right: 100px;
+      }
+      
+      .ex1 {
+        margin-left: inherit;
+        color: rgb(23, 131, 95);
+      }
+
+
