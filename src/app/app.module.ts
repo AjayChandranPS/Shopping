@@ -29,6 +29,11 @@ import { CartpageComponent } from './cartpage/cartpage.component';
 
 import { HomepageComponent } from './homepage/homepage.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { HeaderComponent } from './component/header/header.component';
+import { CartComponent } from './component/cart/cart.component';
+import { ProductsComponent } from './component/products/products.component';
+import { HttpClientModule } from '@angular/common/http';
+import { DetailpageComponent } from './component/detailpage/detailpage.component';
 
 
 @NgModule({
@@ -57,6 +62,10 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     CartpageComponent,
     
     HomepageComponent,
+         HeaderComponent,
+         CartComponent,
+         ProductsComponent,
+         DetailpageComponent,
    
   ],
   imports: [
@@ -65,6 +74,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     FormsModule,
     ReactiveFormsModule,
     FontAwesomeModule,
+    HttpClientModule
     
   ],
   providers: [],

@@ -40,11 +40,9 @@ export class DetailpageComponent {
     console.log(product);
     let cartDataNull = localStorage.getItem('localCart');
     if (cartDataNull == null) {
-      console.log("nullllllllllllllllll")
       localStorage.setItem('localCart', JSON.stringify(product));
     }
     else {
-      console.log("not nullllllllllllllllll")
       const id = product.prodId;
       this.localItem = localStorage.getItem('localCart');
       this.itemsCart = JSON.parse(this.localItem);
@@ -54,7 +52,6 @@ export class DetailpageComponent {
         this.itemsCart.qty = parseInt(this.itemsCart.qty) + 1;
       }
       localStorage.setItem('localCart', JSON.stringify(this.itemsCart));
-      console.log("this.itemsCart >>>>", this.itemsCart)
     }
 
 

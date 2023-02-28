@@ -23,6 +23,8 @@ import { ChildComponent } from './child/child.component';
 import { CartpageComponent } from './cartpage/cartpage.component';
 
 import { HomepageComponent } from './homepage/homepage.component';
+import { DetailpageComponent } from './component/detailpage/detailpage.component';
+import { ProductsComponent } from './component/products/products.component';
 
 const routes: Routes = [
   {path:"login",loadChildren:()=>import('././login/login.module').then(m=>m.LoginModule)},
@@ -47,8 +49,9 @@ const routes: Routes = [
   {path:"parent",component:ParentComponent},
   {path:"child",component: ChildComponent},
   {path:"cartpage",component:CartpageComponent},
-  
-  {path:"homepage",component:HomepageComponent}
+  {path:"homepage",component:HomepageComponent},
+  {path:"detailpage",component:DetailpageComponent},
+  {path:"products",component:ProductsComponent}
   
 ];
 
