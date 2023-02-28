@@ -1,0 +1,12 @@
+img{
+    width: 350px;
+    height: 350px;
+    border: 1px inset;
+    margin-top: 50px;
+}
+
+.name{
+    font-size: 25px;
+    color: #3471cc;
+    text-align: center;
+}

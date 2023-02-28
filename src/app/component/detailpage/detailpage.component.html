@@ -1,0 +1,18 @@
+<div class="container">
+    <div >
+       
+    </div>
+    <div >
+        <img  [src]="product.img">
+      
+        <p>{{product.name}}</p>
+        <h2>Hp Pavillian 15 (2021), 15.6-inch (39.62 cm) HD, Dual Core Intel Celeron N4020,
+            Thin and Light Laptop (4GB RAM/256GB SSD/Integrated Graphics/Windows 11 Home/
+            Transparent Silver/1.8 Kg), X515MA-BR011W</h2>
+        <h1>25,000</h1>
+        <label for=""></label>
+        <input type="number" class="Quantity" min="1" #item><br><br>
+        <button type="button" class="cartbtn" (click)="addCart(product)">Add to Carts</button>
+        
+    </div>
+</div>
