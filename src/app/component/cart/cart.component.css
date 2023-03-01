@@ -1,0 +1,56 @@
+.card{
+    
+    margin: 65px;
+    padding: 15px;
+    border: 1px solid rgb(164, 194, 240);
+}
+
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+img{
+    width: 200px;
+}
+
+.card-title{
+    margin-left: 40px;
+    color: rgb(31, 124, 211);
+    font-weight: 300;
+    font-family: Verdana;
+    font-size: 28px;
+}
+
+.nme{
+    text-align:justify;
+    padding-top: 70px;
+    font-size: 20px;
+}
+
+.prc{
+    text-align:justify;
+    padding-top: 70px;
+    font-size: 20px;
+    color: rgb(32, 170, 39);
+}
+
+.qtyy{
+    text-align:justify;
+    padding-top: 70px;
+    font-size: 20px;
+    color: rgb(231, 31, 31);
+}
+
+.delbtn{
+    width: 70px;
+    height: 25px;
+    margin-top: 60px;
+    margin-left: 30px;
+    color: white;
+    background-color: rgb(219, 71, 152);
+    border-radius: 5px;
+    border: none;
+}
